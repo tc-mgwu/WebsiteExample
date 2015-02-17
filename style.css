@@ -114,7 +114,7 @@ p {
     margin: 0 0 15px
 }
 a {
-    color: #549dc5;
+    color: #54c5b5;
     -webkit-transition: all 200ms ease-in;
     -o-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
@@ -125,7 +125,7 @@ a:focus {
     text-decoration: none;
 }
 .colored {
-    color: #549dc5
+    color: #54c5b5
 }
 .light-wrapper {
     background: #fbfbfb
@@ -182,7 +182,7 @@ h2.post-title a {
     color: #2e2e2e
 }
 h2.post-title a:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 .section-title {
     font-size: 36px;
@@ -227,7 +227,7 @@ ul.circled li:before {
     vertical-align: top;
     display: inline-block;
     font-family: 'fontello-circle';
-    color: #549dc5;
+    color: #54c5b5;
     font-size: 8px;
 }
 .thin {
@@ -260,7 +260,7 @@ blockquote {
     color: #FFF;
     font-size: 22px;
     line-height: 32px;
-    background: #549dc5;
+    background: #54c5b5;
     padding: 25px 30px 20px 30px;
     font-weight: 400;
     border: 0;
@@ -287,7 +287,7 @@ blockquote small {
     color: #cacaca
 }
 .footer a:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 .footer .inner {
     padding-top: 35px;
@@ -945,7 +945,7 @@ footer .post-list li em {
 .btn,
 .btn-submit {
     color: #fff !important;
-    background: #549dc5;
+    background: #54c5b5;
     margin-bottom: 10px;
     margin-right: 4px;
     padding: 11px 20px 11px 20px;
@@ -970,7 +970,7 @@ footer .post-list li em {
     background: #1abb9c
 }
 .btn.btn-blue {
-    background: #549dc5
+    background: #54c5b5
 }
 .btn.btn-red {
     background: #e8554e
@@ -1096,7 +1096,7 @@ footer .post-list li em {
     position: relative
 }
 .navbar-brand {
-    background: #549dc5;
+    background: #54c5b5;
     height: auto;
     padding: 20px 30px;
     position: absolute;
@@ -1151,11 +1151,11 @@ footer .post-list li em {
 }
 .nav > li > a:hover {
     background: none;
-    color: #549dc5;
+    color: #54C5B5;
 }
 .nav > li.current > a {
     background: none;
-    color: #549dc5;
+    color: #54c5b5;
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -1199,7 +1199,7 @@ footer .post-list li em {
 .navbar .nav .open > a:hover,
 .navbar .nav .open > a:focus {
     background: none;
-    color: #549dc5;
+    color: #54c5b5;
 }
 .navbar .nav > li > .dropdown-menu:after {
     display: none
@@ -1215,7 +1215,7 @@ footer .post-list li em {
 .navbar .dropdown-menu > .active > a:hover,
 .navbar .dropdown-menu > .active > a:focus {
     background: none;
-    color: #549dc5;
+    color: #54c5b5;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn.responsive-menu {
@@ -1434,7 +1434,7 @@ footer .post-list li em {
     padding-bottom: 130px;
 }
 .parallax a {
-    color: #549dc5
+    color: #54c5b5
 }
 .parallax a:hover {
 
@@ -1471,7 +1471,7 @@ footer .post-list li em {
 }
 .share-button {
     display: inline-block;
-    border-bottom: 1px solid #549dc5;
+    border-bottom: 1px solid #54c5b5;
     padding-bottom: 5px;
     color: #2e2e2e;
     text-transform: uppercase;
@@ -1483,7 +1483,7 @@ footer .post-list li em {
 }
 .facts i {
     font-size: 50px;
-    color: #549dc5;
+    color: #54c5b5;
 }
 .facts h4 {
     font-size: 40px;
@@ -1646,7 +1646,7 @@ footer .post-list li em {
 }
 .filter li a:hover,
 .filter li a.active {
-    color: #549dc5
+    color: #54c5b5
 }
 .item-details {
     padding: 0;
@@ -1711,7 +1711,7 @@ figure a .text-overlay {
     width: 100%;
     z-index: 100;
     padding: 20px;
-    background: #549dc5;
+    background: #54c5b5;
     background: rgba(84,157,197,0.90);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -1751,7 +1751,7 @@ figure a .text-overlay .info {
     text-decoration: none;
     width: 100%;
     z-index: 100;
-    background: #549dc5;
+    background: #54c5b5;
     background: rgba(84,157,197,0.90);
     overflow: hidden;
     -webkit-transition: all 0.25s;
@@ -2124,7 +2124,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-    border-bottom: 1px solid #549dc5
+    border-bottom: 1px solid #54c5b5
 }
 textarea {
     height: 100%;
@@ -2197,10 +2197,10 @@ textarea {
     color: #2e2e2e
 }
 .contact-info li a:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 .contact-info i {
-    color: #549dc5;
+    color: #54c5b5;
     padding-right: 5px;
 }
 /*-----------------------------------------------------------------------------------*/
@@ -2219,7 +2219,7 @@ textarea {
 }
 .progress-list li em {
     padding-left: 8px;
-    color: #549dc5;
+    color: #54c5b5;
     font-style: normal;
 }
 .progress-list li em:before {
@@ -2232,7 +2232,7 @@ textarea {
     margin-bottom: 0;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
     background: none;
-    border: 1px solid #549dc5;
+    border: 1px solid #54c5b5;
     -webkit-border-radius: 0;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -2248,7 +2248,7 @@ textarea {
     color: #ffffff;
     text-align: center;
     text-shadow: none;
-    background: #549dc5;
+    background: #54c5b5;
     -webkit-border-radius: 0;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -2284,7 +2284,7 @@ textarea {
     padding: 13px 15px 13px;
 }
 .panel-title > a:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
     border: 0
@@ -2323,8 +2323,8 @@ textarea {
 }
 .tabs-top .tab a:hover,
 .tabs-top .tab.active a {
-    color: #549dc5;
-    border-color: #549dc5;
+    color: #54c5b5;
+    border-color: #54c5b5;
 }
 .tabs-top.tab-container .panel-container {
     position: relative;
@@ -2371,7 +2371,7 @@ textarea {
     border-bottom: 1px solid rgba(0,0,0,0.11);
 }
 .pricing .plan h4 span {
-    color: #549dc5
+    color: #54c5b5
 }
 .pricing .plan h4 .amount {
     display: block;
@@ -2453,7 +2453,7 @@ textarea {
     color: #2f2f2f
 }
 .sidebox a:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 .sidebox .post-list .icon-overlay {
     float: left;
@@ -2510,8 +2510,8 @@ ul.tag-list li a {
     text-transform: uppercase;
 }
 ul.tag-list li a:hover {
-    color: #549dc5 !important;
-    border: 1px solid #549dc5;
+    color: #54c5b5 !important;
+    border: 1px solid #54c5b5;
     text-decoration: none;
 }
 /*-----------------------------------------------------------------------------------*/
@@ -2548,8 +2548,8 @@ ul.tag-list li a:hover {
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-    color: #549dc5 !important;
-    border: 1px solid #549dc5;
+    color: #54c5b5 !important;
+    border: 1px solid #54c5b5;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	27. AUTHOR
@@ -2636,7 +2636,7 @@ ul.tag-list li a:hover {
     color: #2e2e2e
 }
 #comments .info h2 a:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 #comments .info .meta {
     display: block;
@@ -2654,7 +2654,7 @@ ul.tag-list li a:hover {
     color: #888888;
 }
 #comments a.reply-link:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 #comments a.reply-link:before {
     display: inline-block;
@@ -2704,12 +2704,12 @@ ul.tag-list li a:hover {
     padding: 0;
 }
 .more {
-    border-bottom: 1px solid #549dc5;
+    border-bottom: 1px solid #54c5b5;
     padding-bottom: 2px;
 }
 .post .meta a:hover,
 .more:hover {
-    color: #549dc5
+    color: #54c5b5
 }
 .grid-blog .post {
     margin-bottom: 30px
@@ -2777,24 +2777,24 @@ figure.main,
 }
 .tooltip-inner {
     color: #fff;
-    background-color: #549dc5;
+    background-color: #54c5b5;
     padding: 5px 12px 5px;
 }
 .tooltip.top .tooltip-arrow,
 .tooltip.top-left .tooltip-arrow,
 .tooltip.top-right .tooltip-arrow {
-    border-top-color: #549dc5
+    border-top-color: #54c5b5
 }
 .tooltip.right .tooltip-arrow {
-    border-right-color: #549dc5
+    border-right-color: #54c5b5
 }
 .tooltip.left .tooltip-arrow {
-    border-left-color: #549dc5
+    border-left-color: #54c5b5
 }
 .tooltip.bottom .tooltip-arrow,
 .tooltip.bottom-left .tooltip-arrow,
 .tooltip.bottom-right .tooltip-arrow {
-    border-bottom-color: #549dc5
+    border-bottom-color: #54c5b5
 }
 /*-----------------------------------------------------------------------------------*/
 /*	31. FANCYBOX
