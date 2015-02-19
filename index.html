@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js></script>
+<!-- jQuery REVOLUTION Slider  -->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- REVOLUTION BANNER CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="shortcut icon" href="style/images/favicon.png">
-<title>Frost</title>
+<title>Tonic</title>
 <!-- Bootstrap core CSS -->
 <link href="style/css/bootstrap.css" rel="stylesheet">
 <link href="style/css/settings.css" rel="stylesheet">
@@ -15,7 +23,7 @@
 <link href="style/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
 <link href="style/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet">
-<link href="style/css/color/blue.css" rel="stylesheet">
+<!--<link href="style/css/color/green.css" rel="stylesheet">-->
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
@@ -36,12 +44,12 @@
         <nav class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
+          
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#pricing">Pricing</a></li>
+          
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Features</a>
+           <!-- <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Features</a>
               <ul class="dropdown-menu">
                 <li class="dropdown-submenu"><a href="#">Blog</a>
                   <ul class="dropdown-menu">
@@ -53,16 +61,7 @@
                   </ul>
                 </li>
                 <li class="dropdown-submenu"><a href="#">Portfolio Posts</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="portfolio-post.html">Post with Wide Slider</a></li>
-                    <li><a href="portfolio-post2.html">Post with Half Slider</a></li>
-                    <li><a href="portfolio-post3.html">Post with Carousel Gallery</a></li>
-                    <li><a href="portfolio-post4.html">Post with Multiple Images</a></li>
-                    <li><a href="portfolio-post5.html">Post with Half Images</a></li>
-                    <li><a href="portfolio-post6.html">Post with Fullscreen Slider</a></li>
-                    <li><a href="portfolio-post7.html">Post with Fullwidth Video</a></li>
-                    <li><a href="portfolio-post8.html">Post with Half Video</a></li>
-                  </ul>
+                
                 </li>
                 <li><a href="elements.html">Elements</a></li>
                 <li><a href="headings.html">Headings</a></li>
@@ -71,7 +70,7 @@
                 <li><a href="fontello.html">Font Icons - Fontello</a></li>
                 <li><a href="budicon.html">Font Icons - Budicon</a></li>
               </ul>
-            </li>
+            </li>-->
           </ul>
         </nav>
       </div>
@@ -85,35 +84,14 @@
         <div class="fullscreenbanner">
           <ul>
             <li data-transition="fade"> <img src="style/images/art/slider-bg1.jpg" alt="" />
-              <div class="caption large sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">Hello We're Frost</div>
-              <div class="caption small sfb" data-x="center" data-y="319" data-speed="900" data-start="1500" data-easing="Sine.easeOut">A digital & branding agency based in neverland</div>
-              <div class="caption small sfb" data-x="center" data-y="362" data-speed="900" data-start="2200" data-easing="Sine.easeOut">
-                <div class="smooth"><a href="#portfolio" class="btn btn-border">See Our Projects</a></div>
+             <!-- <div class="caption large lite sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">Hello, I'm Toni.</div>-->
+              <!--    <div class="caption large sfb" data-x="center" data-y="345" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Design & Development</div>
+              <div class="caption small sfb" data-x="center" data-y="400" data-speed="900" data-start="2200" data-easing="Sine.easeOut">
+            <div class="smooth"><a href="#portfolio" class="btn btn-border">See My Projects</a></div>-->
               </div>
             </li>
-            <li data-transition="fade"> <img src="style/images/art/slider-bg2.jpg" alt="" />
-              <div class="caption large customin customout" data-x="center" data-y="255" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="600"
-						data-start="700"
-						data-easing="Back.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn">Frost is a creative team</div>
-              <div class="caption small customin customout" data-x="center" data-y="329" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="600"
-						data-start="1100"
-						data-easing="Back.easeOut"
-						data-endspeed="300"
-						data-endeasing="Power1.easeIn">Specializing in branding, motion video & mobile applications</div>
-            </li>
-            <li data-transition="fade"> <img src="style/images/art/slider-bg3.jpg" alt="" />
-              <div class="caption large lite sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">Your needs are important</div>
-              <div class="caption small lite sfb" data-x="center" data-y="319"  data-speed="900" data-start="1500" data-easing="Sine.easeOut">Because great design comes with understanding customer needs</div>
-              <div class="caption small sfb" data-x="center" data-y="362" data-speed="900" data-start="2200" data-easing="Sine.easeOut">
-                <div class="smooth"><a href="#contact" class="btn btn-border-lite">Get in Touch</a></div>
-              </div>
-            </li>
+
+
           </ul>
           <div class="tp-bannertimer tp-bottom"></div>
         </div>
@@ -125,35 +103,41 @@
   <div id="services" class="section anchor">
     <div class="light-wrapper">
       <div class="container inner">
-        <h2 class="section-title text-center">How It Works</h2>
-        <p class="lead main text-center">We're making useful things since 2008</p>
+        <h2 class="section-title text-center">How I Work</h2>
+        <p class="lead main text-center">My creative process</p>
         <div class="row text-center services-1">
           <div class="col-sm-3">
             <div class="col-wrapper">
-              <div class="icon-wrapper"> <i class="budicon-image"></i> </div>
-              <h3>Photography</h3>
-              <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum.</p>
+              <div class="icon-wrapper"> <span class="colored"><i class="budicon-pencil-4"></i></span> </div>
+              <h3>Sketch</h3>
+              <p>Understand the end goal from the start and begin sketching out ideas. By getting
+			  concepts down on paper, I'm able to brainstorm ideas about the project. This step also enables me to flesh out the project scope and start developing project aesthetics.
+			</p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="col-wrapper">
-              <div class="icon-wrapper"> <i class="budicon-browser-3"></i> </div>
-              <h3>Web Design</h3>
-              <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient monte nascetur. </p>
+              <div class="icon-wrapper"> <span class="colored"> <i class="budicon-layout-1"></i></span> </div>
+              <h3>Wireframe & Prototype</h3>
+              <p>Begin moving concepts into their appropriate mediums. For example, visual concepts will move to Illustrator, while mobile 
+			  projects will move to XCode. This is where I start refining my designs and start creating mock-ups, wireframes, and bare-bone products.</p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="col-wrapper">
-              <div class="icon-wrapper"> <i class="budicon-shopping-cart"></i> </div>
-              <h3>E-Commerce</h3>
-              <p>Curabitur blandit matti tempus porttitor. Donec id elit non mi porta ut gravida at eget metus. Consectetur adipiscing elit.</p>
+              <div class="icon-wrapper"> <span class="colored"><i class="budicon-redo"></i></span> </div>
+              <h3>Iteration</h3>
+              <p>Adapt designs to feedback and product goals. Should the goal change from the start of the project, I will reiterate my
+			  design to conform to new goals. Feedback is vital to every step of the creative process, as is being a flexible designer and developer.</p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="col-wrapper">
-              <div class="icon-wrapper"> <i class="budicon-radio"></i> </div>
-              <h3>Sound Design</h3>
-              <p>Aenean lacinia bibendum consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio.</p>
+              <div class="icon-wrapper"> <span class="colored"><i class="budicon-browser-3"></i> </span></div>
+              <h3>Final Polish</h3>
+              <p>Prepare final project assets. Depending on the type of project, this could mean creating a presentation deck, shipping
+			  a mobile application, or optimizing image files for web. In every case, it's important to ensure that the end product
+			is ready.</p>
             </div>
           </div>
         </div>
@@ -183,27 +167,30 @@
   <div id="portfolio" class="section anchor">
     <div class="dark-wrapper">
       <div class="container inner">
-        <h2 class="section-title text-center">Our Awesome Projects</h2>
-        <p class="lead main text-center">Great design comes with understanding customer needs</p>
+        <h2 class="section-title text-center">Portfolio</h2>
+        <p class="lead main text-center"></p>
         <div class="grid-portfolio fix-portfolio">
           <ul class="filter">
             <li><a class="active" href="#" data-filter="*">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
-            <li><a href="#" data-filter=".photo">Photography</a></li>
-            <li><a href="#" data-filter=".motion">Motion Design</a></li>
+          <li><a href="#" data-filter=".mobile">Mobile</a></li> 
+		   <li><a href="#" data-filter=".web">Web</a></li>
+            <li><a href="#" data-filter=".graphic">Graphic</a></li>
+            <li><a href="#" data-filter=".game">Game</a></li>
+            
           </ul>
           
           <!-- /filter -->
           
           <ul class="content-slider items">
             <li class="item thumb web">
-              <figure><a href="#" data-contenturl="portfolio-post.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+              <figure><a href="#" data-contenturl="portfolio-ZombieCritters.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
                 <div class="text-overlay">
-                  <div class="info">Fullwidth Slider</div>
+                  <div class="info">Zombie Critters</div>
                 </div>
-                <img src="style/images/art/p1.jpg" alt="" /> </a></figure>
+                <img src="style/images/ZombieCritters/t1.jpg" alt="" /> </a></figure>
             </li>
+			
+			
             <li class="item thumb graphic">
               <figure><a href="#" data-contenturl="portfolio-post2.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
                 <div class="text-overlay">
@@ -324,14 +311,17 @@
   <div id="about" class="section anchor">
     <div class="light-wrapper">
       <div class="container inner">
-        <h2 class="section-title text-center">About the Company</h2>
-        <p class="lead main text-center">A creative agency turning ideas into beautiful things</p>
+        <h2 class="section-title text-center">About <span class="colored">Toni</span></h2>
+      <p class="lead main text-center">A Designer turned Developer</p>
         <div class="row">
           <div class="col-sm-8">
-            <h2>Our Working Place</h2>
-            <p class="lead">"Vestibulum ligut praesent commodo cursus magna, consectetur et. Cum socis natoque penatibus et magnis dis tellus parturient pharetra montes."</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <h2>Design Philosophy</h2>
+            <p class="lead">"The moment you stop learning is the moment you fall behind."</p>
+            <p>With a core interest in game design, I utilize my academic background in media arts, visual design, 
+			and mobile development to produce meaningful products. As a designer and developer, I'm constantly creating 
+			my own projects to hone my skills whilst pursuing my interests in mobile games and applications. Currently, I'm pursuing an MFA in Game Design at the Academy of Art University and am open to chat about
+			new opporutunies in game development, mobile development, and visual design. </p>
+          
           </div>
           <div class="col-sm-4">
             <figure><img src="style/images/art/about.jpg" alt="" /></figure>
@@ -341,33 +331,33 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="section-title">
-              <h3>Our Skills</h3>
+              <h3>Skills</h3>
             </div>
             <p>Duis non lectus sit amet est imperdiet cursus elementum vitae eros. Etiam adipiscingmorbi vitae magna tellus, ac mattis urna phasellus rhoncus.</p>
             <div class="divide10"></div>
             <ul class="progress-list">
               <li>
-                <p>Photoshop <em>90%</em></p>
+                <p>Illustrator <em>90%</em></p>
                 <div class="progress plain">
                   <div class="bar" style="width: 90%;"></div>
                 </div>
               </li>
               <li>
-                <p>Final Cut <em>80%</em></p>
-                <div class="progress plain">
-                  <div class="bar" style="width: 80%;"></div>
-                </div>
-              </li>
-              <li>
-                <p>Studio Photography <em>85%</em></p>
+                <p>Photoshop <em>85%</em></p>
                 <div class="progress plain">
                   <div class="bar" style="width: 85%;"></div>
                 </div>
               </li>
               <li>
-                <p>Motion Video <em>75%</em></p>
+                <p>InDesign <em>80%</em></p>
                 <div class="progress plain">
-                  <div class="bar" style="width: 50%;"></div>
+                  <div class="bar" style="width: 80%;"></div>
+                </div>
+              </li>
+              <li>
+                <p>HTML/CSS/Objective-C <em>70%</em></p>
+                <div class="progress plain">
+                  <div class="bar" style="width: 70%;"></div>
                 </div>
               </li>
             </ul>
@@ -375,34 +365,87 @@
           </div>
           <div class="col-sm-4">
             <div class="section-title">
-              <h3>Why Choose Us?</h3>
+              <h3>Experience</h3>
             </div>
             <div class="divide5"></div>
             <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
+		 
+		 <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle active" data-parent="#accordion" href="#collapseOne"> 100% Responsive </a> </h4>
+                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseZero"> Freelancer &nbsp;<span style="color:gray">Visual Designer</span></a> </h4>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda et.</div>
+                <div id="collapseZero" class="panel-collapse collapse">
+				<div class="panel-body">
+				  <ul>
+					<li>Redesigned visual aesthetic and developed websites for music teachers in San Rafael using HTML and CSS</li>
+				  <li>Created logos and marketing material, such as banners and brochures, for various clients</li>
+				  <li>Wireframed UX designs for mobile games and applications to give clients a basic idea of user flow and composition</li>
+				 </ul>
+				  </div>
+                </div>
+              </div>
+			  
+			  
+				<div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseOne"> Tynker &nbsp;<span style="color:gray">Contract Artist</span></a> </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+				<div class="panel-body">
+				  <ul>
+					<li>Created new assets Tynker's media gallery by expanding upon predefined style guides to create characters, backgrounds, items, and user interface elements</li>
+				  <li>Researched educational standards for specific grades and subjects to produce STEM lesson content and template modules using Tynker's engine</li>
+				  <li>Improved products by actively testing lesson plans and by maintaining a detailed document to track all known bugs and issues for software engineers to refer to</li>
+				 <li>Created marketing materials for web and print to emphasize new features and new content for Hour of Code</li>
+				 </ul>
+				  </div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseTwo"> Clean & Professional Design </a> </h4>
+                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseTwo"> GSN Games &nbsp;<span style="color:gray">Production Intern</span></a> </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse">
-                  <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                  <div class="panel-body"><ul>
+				  <li>Designed a new game concept and created detailed wireframes that communicated how the game functions and how the new game mechanics will reward the player</li>
+				  <li>Track and prioritize issues in JIRA by describing known issues and assigning tasks to appropriate team members</li>
+				  <li>Condense customer service reviews to give a summary of player experience and to highlight any influxes of complaints on game errors, design flaws, and incorrect economy balance</li>
+				  <li>Participate in daily SCRUM meetings with team to optimize the daily agenda and to keep updated on current project sprints</li>
+				  <li>Create wireframes of Video Bingo menu screens and alternative bonus ball mechanic transition</li>
+				  </ul>
+				  </div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseThree"> Collapsible Group Item #3 </a> </h4>
+                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseThree"> ID Tech Camps &nbsp;<span style="color:gray">Instructor</span></a> </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse">
-                  <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+				  <div class="panel-body"> 
+				  <ul>
+				  <li>Taught the basics of modeling, rigging, and animation in Maya</li>
+				  <li>Taught the basics of level design, lighting, optimization, and prototyping game mechanics in Unreal Development Kit</li>
+				  <li>Led group discussions and critiques to help students finalize their projects</li>
+				  <li>Presented lectures on the game production process, project planning and time management, and the elements of narrative</li>
+				  </ul>
+				  </div>
                 </div>
               </div>
+			   <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseFour"> VRMC &nbsp;<span style="color:gray">Graphic Design Intern</span></a> </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+				  <div class="panel-body"> 
+				  <ul>
+				  <li>Created print and web graphics for marketing publications, books, product line, magazine, and scientific journal</li>
+				  <li>Designed a new logo in Illustrator for re-branding purposes and taught the office basic Photoshop to optimize source images</li>
+		
+				  </ul>
+				  </div>
+                </div>
+              </div>
+			  
             </div>
           </div>
           <div class="col-sm-4">
@@ -451,42 +494,35 @@
           </div>
         </div>
         <hr />
-        <h2>Meet Our Team</h2>
+        <h2>Thesis &nbsp;<span style="color:gray">Mobile Development</span></h2>
         <div class="row team text-center">
           <div class="col-sm-4">
             <figure><img src="style/images/art/team1.jpg" alt="" /></figure>
-            <h3>Connor Gibson</h3>
-            <span class="biz-title colored">Interface Designer</span>
+            <h3>Uno Toddler App</h3>
+            <span class="biz-title colored">An enriching app bundle for toddlers</span>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, egety lacinia odio sem, vestibulum midor ligula porta felis euismod semper.</p>
             <ul class="social">
-              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-              <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+              <li><a href="#"><i class="icon-s-github"></i></a></li>
+	
             </ul>
           </div>
           <div class="col-sm-4">
             <figure><img src="style/images/art/team2.jpg" alt="" /></figure>
-            <h3>Nikolas Brooten</h3>
-            <span class="biz-title colored">Web Developer</span>
+            <h3>Sleepy Sandman</h3>
+            <span class="biz-title colored">An exciting math game for young kids</span>
             <p>Integer posuere erat anka ante venenatis dapibus posuere velitor aliquet.  Consectetur adipiscing vestibulum ligula porta felis euismod semper.</p>
             <ul class="social">
-              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-              <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+              <li><a href="#"><i class="icon-s-github"></i></a></li>
+    
             </ul>
           </div>
           <div class="col-sm-4">
             <figure><img src="style/images/art/team3.jpg" alt="" /></figure>
-            <h3>Barclay Widerski</h3>
-            <span class="biz-title colored">Photographer</span>
+            <h3>To be determined</h3>
+            <span class="biz-title colored">Another mobile game</span>
             <p>Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam at venenatis vestibulum ullamcorper.</p>
             <ul class="social">
-              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-              <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+             <li><a href="#"><i class="icon-s-github"></i></a></li>
             </ul>
           </div>
         </div>
@@ -619,6 +655,9 @@
       </div>
     </div>
   </div>
+  
+  
+  
   <div class="parallax parallax3 customers">
     <div class="container inner text-center">
       <div class="testimonials owl-carousel thin">
