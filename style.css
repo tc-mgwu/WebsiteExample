@@ -211,6 +211,11 @@ h2.post-title a:hover {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.innerParallaxBG {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 ul {
     padding: 0 0 0 18px
 }
