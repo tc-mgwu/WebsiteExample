@@ -127,6 +127,11 @@ a:focus {
 .colored {
     color: #54c5b5
 }
+
+.coloredgrey {
+	color: #838F95
+	
+}
 .light-wrapper {
     background: #fbfbfb
 }
@@ -192,10 +197,21 @@ h2.post-title a:hover {
     font-weight: 600;
 }
 
+.resume {
+text-align: left;
+margin-left: 50px;
+}
+
 .space {
 	margin: 80px;
 	
 }
+
+.space2 {
+	margin: 30px;
+	
+}
+
 .lead {
     font-size: 17px;
     line-height: 24px;
@@ -3453,3 +3469,5 @@ figure.main,
 	    display: none
 	}
 }
+
+
