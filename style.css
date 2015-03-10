@@ -2040,7 +2040,7 @@ figure a .text-overlay .info {
     -moz-transition: all 200ms ease-in;
 }
 .custom-controls .owl-slider-controls .owl-slider-nav [class*='owl-']:hover {
-    color: rgba(0,0,0,1)
+    color: rgba(97, 199, 197,.75);
 }
 .custom-controls .owl-slider-controls .owl-slider-nav .owl-slider-prev {
     left: 10px
@@ -2069,7 +2069,7 @@ figure a .text-overlay .info {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background:rgba(0,0,0,.3);
+    background:rgba(97, 199, 197,.75);
 }
 /*
 .carousel-gallery-wrapper {
