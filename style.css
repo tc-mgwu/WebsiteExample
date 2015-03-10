@@ -2028,7 +2028,7 @@ figure a .text-overlay .info {
     top: 50%;
     margin-top: -22px;
     pointer-events: auto;
-    color: rgba(255,255,255,0.6);
+    color: rgba(0,0,0,.3);
     line-height: 1;
     font-size: 40px;
     width: auto;
@@ -2040,7 +2040,7 @@ figure a .text-overlay .info {
     -moz-transition: all 200ms ease-in;
 }
 .custom-controls .owl-slider-controls .owl-slider-nav [class*='owl-']:hover {
-    color: rgba(255,255,255,1)
+    color: rgba(0,0,0,1)
 }
 .custom-controls .owl-slider-controls .owl-slider-nav .owl-slider-prev {
     left: 10px
@@ -2062,14 +2062,14 @@ figure a .text-overlay .info {
     -webkit-transition: all 200ms ease-in;
     -o-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
-    background: rgba(255,255,255,0.3);
+    background: rgba(0,0,0,0.1);
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: rgba(255,255,255,0.6)
+    background:rgba(0,0,0,.3);
 }
 /*
 .carousel-gallery-wrapper {
